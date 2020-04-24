@@ -35,10 +35,10 @@ public class CalculatorTest {
     /**
      * Tests the subtraction of two integers
      */
-    public void testIntSub() {
+    public void testIntSubtract() {
         int a = 10;
         int b = -5;
-        double result = Calculator.sub(a, b);
+        double result = Calculator.subtract(a, b);
         Assert.assertEquals(result, 15);
     }
 
@@ -46,10 +46,10 @@ public class CalculatorTest {
     /**
      * Tests the subtraction of two floating point numbers
      */
-    public void testDoubleSub() {
+    public void testDoubleSubtract() {
         double a = 5.5;
         double b = 3.2;
-        double result = Calculator.sub(a, b);
+        double result = Calculator.subtract(a, b);
         Assert.assertEquals(result, 2.3);
     }
 
@@ -57,10 +57,10 @@ public class CalculatorTest {
     /**
      * Tests the product of two integers
      */
-    public void testIntMul() {
+    public void testIntMultiply() {
         int a = 7;
         int b = -7;
-        double product = Calculator.mul(a, b);
+        double product = Calculator.multiply(a, b);
         Assert.assertEquals(product, -49);
     }
 
@@ -69,10 +69,10 @@ public class CalculatorTest {
 //    /**
 //     * Tests the sum of two integers
 //     */
-//    public void testDoubleMul() {
+//    public void testDoubleMultiply() {
 //        double a = 7;
 //        double b = -7;
-//        double product = Calculator.mul(a, b);
+//        double product = Calculator.multiply(a, b);
 //        Assert.assertEquals(product, -49);
 //    }
 }
