@@ -2,13 +2,13 @@
  * TODO HOMEWORK CHECKLIST:
  *      [X] Pull down Homework 1's starting branch
  *      [ ] Finish the sub method
- *      [ ] Fix the bug in the mul method
+ *      [ ] Fix the bug in the multiply method
  *      [ ] Run the main method to see what happens
  *      [ ] Run the TestNG tests and make sure they all pass
  *      [ ] Comment below what the difference between TestNG and the main method is
  *          // ANSWER HERE:
  *      [ ] Submit your homework!
- * A basic class for a Calculator that can add, subtract and multiple
+ * A basic class for a Calculator that can add, subtract, and multiple
  */
 public class Calculator {
 
@@ -30,7 +30,7 @@ public class Calculator {
      * @param numTwo The number being used for subtraction
      * @return The result of numTwo subtracted from numOne
      */
-    public static double sub(double numOne, double numTwo) {
+    public static double subtract(double numOne, double numTwo) {
         // Write the correct method here
         return 0; // Delete this line when done will all of the above
     }
@@ -43,7 +43,7 @@ public class Calculator {
      * @param numTwo The first number being multiplied
      * @return The product of two numbers
      */
-    public static int mul(int numOne, int numTwo) {
+    public static int multiply(int numOne, int numTwo) {
         return numOne * numTwo;
     }
 
@@ -55,10 +55,10 @@ public class Calculator {
         int firstNum = 6;
         int secondNum = 3;
         System.out.println(firstNum + " + " + secondNum + " = " + add(firstNum, secondNum));
-        System.out.println(firstNum + " - " + secondNum + " = " + sub(firstNum, secondNum));
-        System.out.println(firstNum + " * " + secondNum + " = " + mul(firstNum, secondNum));
+        System.out.println(firstNum + " - " + secondNum + " = " + subtract(firstNum, secondNum));
+        System.out.println(firstNum + " * " + secondNum + " = " + multiply(firstNum, secondNum));
 
-        // TODO: The following won't work as intended till all homework is done, uncomment when finished
+        // TODO: The following won't work as intended until all homework is done, uncomment when finished
         // double firstDouble = 6;
         // double secondDouble = 3;
         // System.out.println(firstDouble + " + " + secondDouble + " = " + add(firstDouble, secondDouble));
