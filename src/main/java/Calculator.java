@@ -1,14 +1,11 @@
 /**
- * TODO HOMEWORK CHECKLIST:
+ * TODO FOR HOMEWORK - BaseShape.java
  *      [X] Pull down Homework 1's starting branch
  *      [ ] Finish the subtract method
  *      [ ] Fix the bug in the multiply method
  *      [ ] Run the main method to see what happens
  *      [ ] Run the TestNG tests and make sure they all pass
- *      [ ] Comment below what the difference between TestNG and the main method is
- *          // ANSWER HERE:
- *      [ ] Submit your homework!
- * A basic class for a Calculator that can add, subtract, and multiple
+ *      [ ] Answer the Short Answer question in the HomeworkChecklist.txt
  */
 public class Calculator {
 
