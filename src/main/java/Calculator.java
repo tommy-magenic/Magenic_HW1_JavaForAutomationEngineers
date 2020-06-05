@@ -29,7 +29,7 @@ public class Calculator {
      */
     public static double subtract(double numOne, double numTwo) {
         // Write the correct method here
-        return 0; // Delete this line when done will all of the above
+        return 0; // Delete this line when done with all of the above
     }
 
     /**
@@ -37,7 +37,7 @@ public class Calculator {
      *
      * Multiplies two floating point numbers together
      * @param numOne The first number being multiplied
-     * @param numTwo The first number being multiplied
+     * @param numTwo The second number being multiplied
      * @return The product of two numbers
      */
     public static int multiply(int numOne, int numTwo) {
@@ -59,7 +59,7 @@ public class Calculator {
         // double firstDouble = 6;
         // double secondDouble = 3;
         // System.out.println(firstDouble + " + " + secondDouble + " = " + add(firstDouble, secondDouble));
-        // System.out.println(firstDouble + " - " + secondDouble + " = " + sub(firstDouble, secondDouble));
-        // System.out.println(firstDouble + " * " + secondDouble + " = " + mul(firstDouble, secondDouble));
+        // System.out.println(firstDouble + " - " + secondDouble + " = " + subtract(firstDouble, secondDouble));
+        // System.out.println(firstDouble + " * " + secondDouble + " = " + multiply(firstDouble, secondDouble));
     }
 }
