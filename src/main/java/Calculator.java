@@ -1,5 +1,5 @@
 /**
- * TODO FOR HOMEWORK - BaseShape.java
+ * TODO FOR HOMEWORK - Calculator.java
  *      [X] Pull down Homework 1's starting branch
  *      [ ] Finish the subtract method
  *      [ ] Fix the bug in the multiply method
