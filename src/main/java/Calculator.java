@@ -1,10 +1,10 @@
 /**
  * TODO FOR HOMEWORK - Calculator.java
  *      [X] Pull down Homework 1's starting branch
- *      [ ] Finish the subtract method
- *      [ ] Fix the bug in the multiply method
- *      [ ] Run the main method to see what happens
- *      [ ] Run the TestNG tests and make sure they all pass
+ *      [X] Finish the subtract method
+ *      [X] Fix the bug in the multiply method
+ *      [X] Run the main method to see what happens
+ *      [X] Run the TestNG tests and make sure they all pass
  *      [ ] Answer the Short Answer question in the HomeworkChecklist.txt
  */
 public class Calculator {
@@ -29,7 +29,7 @@ public class Calculator {
      */
     public static double subtract(double numOne, double numTwo) {
         // Write the correct method here
-        return 0; // Delete this line when done with all of the above
+        return numOne - numTwo; // Delete this line when done with all of the above
     }
 
     /**
@@ -40,7 +40,7 @@ public class Calculator {
      * @param numTwo The second number being multiplied
      * @return The product of two numbers
      */
-    public static int multiply(int numOne, int numTwo) {
+    public static double multiply(double numOne, double numTwo) {
         return numOne * numTwo;
     }
 
@@ -56,10 +56,10 @@ public class Calculator {
         System.out.println(firstNum + " * " + secondNum + " = " + multiply(firstNum, secondNum));
 
         // TODO: The following won't work as intended until all homework is done, uncomment when finished
-        // double firstDouble = 6;
-        // double secondDouble = 3;
-        // System.out.println(firstDouble + " + " + secondDouble + " = " + add(firstDouble, secondDouble));
-        // System.out.println(firstDouble + " - " + secondDouble + " = " + subtract(firstDouble, secondDouble));
-        // System.out.println(firstDouble + " * " + secondDouble + " = " + multiply(firstDouble, secondDouble));
+        double firstDouble = 6;
+        double secondDouble = 3;
+        System.out.println(firstDouble + " + " + secondDouble + " = " + add(firstDouble, secondDouble));
+        System.out.println(firstDouble + " - " + secondDouble + " = " + subtract(firstDouble, secondDouble));
+        System.out.println(firstDouble + " * " + secondDouble + " = " + multiply(firstDouble, secondDouble));
     }
 }
